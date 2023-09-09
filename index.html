@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .img1{
+            background: url(markus-spiske-iar-afB0QQw-unsplash.jpg) ;
+            width: 100vw;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;  
+        }
+        #id1{
+              display: flex;
+              flex-direction: column;
+               padding: 20% 10%;
+               color: azure;
+               font-size: 3vmax;
+
+        }
+      
+        #id2{
+            display: block;
+            width: 100vw;
+            height:fit-content;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 2rem;
+           text-align: center;
+           text-transform: capitalize;
+           border: 1px solid white;
+        }
+        .works{
+            width: 100vw;
+            height: fit-content;
+            display: flex;
+            justify-content: space-evenly;
+            box-sizing: border-box;
+            background: #dadada;
+            padding: 20px;
+        }
+       .card{
+          background-color: white;
+          width:320px;
+          height: fit-content;
+          border-radius: 5%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 10px; 
+          box-shadow: 3px 5px 15px  black;
+          user-select: none;
+       }
+       .card:hover{
+        transition-property: all;
+        transform:scale(1.025,1.025);
+       
+       }
+       .text{
+        padding: 5%;
+       }
+       .card p{
+        font-size: 1.5rem;
+       }
+       .card img{
+        width: 320px;
+        border-radius: 5%  5%  0 0;
+       }
+        .contact{
+        width: 100vw;
+         display: flex;
+         gap: 1px;
+        }
+        .call{
+            width: 50vw;
+            background-color: seagreen;
+            height: fit-content;
+        }
+       .about{
+        width: 50vw;
+        background-color: maroon;
+       }
+       
+       footer{
+        background-color: black;
+        text-align: center;
+        font-size: larger;
+        color: white;
+        width: 100vw;
+       }
+       @media (max-width:1000px){
+        .works{
+            width: 100vw;
+            box-sizing: border-box;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+        .img1{
+            width: 100vw;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;  
+        }
+        #id2{
+font-size: 1rem;
+        }
+       }
+    </style>
+</head>
+<body>
+    <section class="img1">
+        <span id="id1">
+           <H1>Hii</H1> <p>I'm John Doe</p>
+<p><H1>FULL STACK DEVELOPER</H1></p>
+        
+         </span>
+    </section>
+    
+        <span id="id2">
+            <h1>Works ,i can do for you</h1>  
+         </span>
+       
+         <section class="works">
+            <div class="card">
+          <!-- <img src="./Photos/download (1).jpeg" alt=""> -->
+         <img src="domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt="">
+          <span class="text">
+                <h1>WEB DEVLOPMENT</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, quibusdam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur doloremque voluptate distinctio sed aliquid atque numquam rem sit fuga dolorem. Illo unde officia quod debitis id nisi qui quo magnam aliquid voluptas?</p>
+            </span>
+                 </div>
+            <div class="card">
+                <img src="rubaitul-azad-oAujRLsfydI-unsplash.jpg" alt="">
+                <span class="text">
+                      <h1>APP DEVLOPMENT</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, quibusdam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur doloremque voluptate distinctio sed aliquid atque numquam rem sit fuga dolorem. Illo unde officia quod debitis id nisi qui quo magnam aliquid voluptas?</p>
+                  </span>
+            </div>
+            <div class="card">
+                <img src="harpal-singh-_zKxPsGOGKg-unsplash.jpg" alt="">
+                <span class="text">
+                      <h1>UI/UX DESINGER</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, quibusdam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur doloremque voluptate distinctio sed aliquid atque numquam rem sit fuga dolorem. Illo unde officia quod debitis id nisi qui quo magnam aliquid voluptas?</p>
+                  </span></div>
+         </section>
+<br>
+         <section class="contact">
+            <div class="call">
+                <h2>Contact Me</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolorem odit repellendus quidem ipsam, esse laborum, commodi sunt voluptates inventore quo ipsum!
+                </p>
+            </div>
+            <div class="about">
+                <h2>About Me</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolorem odit repellendus quidem ipsam, esse laborum, commodi sunt voluptates inventore quo ipsum!
+                </p>
+            </div>
+         </section>
+         <footer>Project By Do Some Coding &copy;</footer>
+   
+</body>
+</html>
